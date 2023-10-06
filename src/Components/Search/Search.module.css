@@ -1,5 +1,5 @@
 form {
-  width: 30vw;
+  width: 40%;
   background: snow;
   border-radius: 0.8rem;
   display: flex;
@@ -22,4 +22,16 @@ form {
   height: 100%;
   cursor: pointer;
   background-color: black;
+}
+
+@media only screen and (min-width: 0) and (max-width: 700px) {
+  form {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1100px) {
+  form {
+    width: 50%;
+  }
 }

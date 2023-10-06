@@ -30,3 +30,29 @@
   font-size: 1.3rem;
   font-weight: 400 !important;
 }
+
+@media only screen and (min-width: 0) and (max-width: 700px) {
+  .Details-container {
+    padding: 9rem 2rem;
+    width: 90%;
+    bottom: -10rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .Details-container > .latitude,
+  .Details-container > .longitude {
+    flex-basis: 100%;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.3rem;
+    font-size: .9rem;
+  }
+  .Details-container > .latitude {
+    border-right: 0;
+    border-bottom: 3px solid hsl(0, 0%, 59%);
+    padding-bottom: 2rem;
+  }
+  .title{
+    font-size: 1.1rem;
+  }
+}
