@@ -1,0 +1,25 @@
+form {
+  width: 30vw;
+  background: snow;
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  z-index: 20 !important;
+  font-family: "Rubik", sans-serif;
+}
+.search-input {
+  background: snow;
+  color: black;
+  padding: 1.2rem;
+  width: 100%;
+  height: 100%;
+  font: 500 1.1rem "Rubik";
+}
+.search-button {
+  width: 4rem;
+  height: 100%;
+  cursor: pointer;
+  background-color: black;
+}

@@ -1,0 +1,32 @@
+.Details-container {
+  width: 80%;
+  height: 10rem;
+  padding: 1.5rem;
+  background-color: snow;
+  border-radius: 0.8rem;
+  position: absolute;
+  bottom: -5rem;
+  z-index: 10 !important;
+  display: flex;
+  color: hsl(0, 0%, 17%);
+  justify-content: space-around;
+}
+.Details-container > .latitude,
+.Details-container > .longitude {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.Details-container > .latitude {
+  border-right: 2px solid hsl(0, 0%, 59%);
+}
+
+.title {
+  color: hsl(0, 0%, 59%) !important;
+  font-size: 1.3rem;
+  font-weight: 400 !important;
+}

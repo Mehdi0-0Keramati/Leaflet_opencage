@@ -1,0 +1,18 @@
+.Header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+  width: 100vw;
+  height: 18rem;
+  background: url(".././assets/pattern-bg-desktop.png") center/cover no-repeat;
+  padding-top: 2rem;
+  position: relative;
+}
+
+@media only screen and (min-width: 0) and (max-width: 700px) {
+  .Header {
+    background: url(".././assets/pattern-bg-mobile.png") center/cover no-repeat;
+    height: 10rem;
+  }
+}
